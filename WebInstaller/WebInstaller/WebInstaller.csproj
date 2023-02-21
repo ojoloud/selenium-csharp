@@ -12,11 +12,23 @@
     <None Remove="Selenium.WebDriver.ChromeDriver" />
     <None Remove="Selenium.Support" />
     <None Remove="Selenium.WebDriver" />
+    <None Remove="Page\" />
+    <None Remove="Driver\" />
+    <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+    <None Remove="Pages\" />
+    <None Remove="System.Configuration.ConfigurationManager" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="110.0.5481.7700" />
     <PackageReference Include="Selenium.Support" Version="4.8.1" />
     <PackageReference Include="Selenium.WebDriver" Version="4.8.1" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Page\" />
+    <Folder Include="Driver\" />
+    <Folder Include="Pages\" />
   </ItemGroup>
 </Project>
